@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6ème - Mes Cours de Musique</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenue sur le site du cours de musique !</h1>
+    </header>
+
+   <nav>
+    <button class="menu-hamburger" aria-label="Ouvrir le menu">☰</button>
+    
+    <ul class="menu-links">
+         <li><a href="index.html">Accueil</a></li>
+
+        <li class="dropdown">
+            <a href="6eme.html">6ème</a>
+            <ul class="submenu">
+                <li><a href="6eme-sequence1.html">Séquence 1</a></li>
+                <li><a href="6eme-sequence2.html">Séquence 2</a></li>
+                <li><a href="6eme-sequence3.html">Séquence 3</a></li>
+                <li><a href="6eme-sequence4.html">Séquence 4</a></li>
+                <li><a href="6eme-sequence5.html">Séquence 5</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="5eme.html">5ème</a>
+            <ul class="submenu">
+                <li><a href="5eme-sequence1.html">Séquence 1</a></li>
+                <li><a href="5eme-sequence2.html">Séquence 2</a></li>
+                <li><a href="5eme-sequence3.html">Séquence 3</a></li>
+                <li><a href="5eme-sequence4.html">Séquence 3</a></li>
+                <li><a href="5eme-sequence5.html">Séquence 3</a></li>
+                </ul>
+        </li>
+        <li class="dropdown">
+            <a href="4eme.html">4ème</a>
+            <ul class="submenu">
+                <li><a href="4eme-sequence1.html">Séquence 1</a></li>
+                <li><a href="4eme-sequence2.html">Séquence 2</a></li>
+                <li><a href="4eme-sequence3.html">Séquence 3</a></li>
+                <li><a href="4eme-sequence4.html">Séquence 4</a></li>
+                <li><a href="4eme-sequence5.html">Séquence 5</a></li>
+                </ul>
+        </li>
+        <li class="dropdown">
+            <a href="3eme.html">3ème</a>
+            <ul class="submenu">
+                <li><a href="3eme-sequence1.html">Séquence 1</a></li>
+                <li><a href="3eme-sequence2.html">Séquence 2</a></li>
+                <li><a href="3eme-sequence3.html">Séquence 3</a></li>
+                <li><a href="3eme-sequence4.html">Séquence 4</a></li>
+                <li><a href="3eme-sequence5.html">Séquence 5</a></li>
+                </ul>
+        </li>
+
+        <li><a href="chorale.html">La Chorale</a></li>
+        <li><a href="scene.html">La Scène</a></li>
+        <li><a href="jukebox.html">Le Jukebox</a></li>
+        <li><a href="outils.html">La Boîte à Outils</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+    <main>
+    <h2>Les Séquences de 3eme</h2>
+    <p>Cliquez sur une séquence pour accéder aux cours, aux chants et aux exercices correspondants.</p>
+
+    <div class="sequences-container">
+
+        <a href="3eme-sequence1.html" class="sequence-card">
+            <h3>Séquence 1 : Titre de la Séquence</h3>
+            <p>Résumé de ce que les élèves vont apprendre et faire dans cette première séquence de 5ème.</p>
+        </a>
+
+        <a href="3eme-sequence2.html" class="sequence-card">
+            <h3>Séquence 2 : Titre de la Séquence</h3>
+            <p>Résumé de la deuxième séquence...</p>
+        </a>
+
+        <a href="3eme-sequence3.html" class="sequence-card">
+            <h3>Séquence 3 : Titre de la Séquence</h3>
+            <p>Résumé de la troisième séquence...</p>
+        </a>
+
+        <a href="3eme-sequence4.html" class="sequence-card">
+            <h3>Séquence 4 : Titre de la Séquence</h3>
+            <p>Résumé de la quatrième séquence...</p>
+        </a>
+
+        <a href="3eme-sequence5.html" class="sequence-card">
+            <h3>Séquence 5 : Titre de la Séquence</h3>
+            <p>Résumé de la cinquième séquence...</p>
+        </a>
+
+    </div>
+</main>
+
+    <footer>
+        <p>&copy; 2025 - Cours de Musique du Collège</p>
+    </footer>
+
+ <script>
+    const menuHamburger = document.querySelector(".menu-hamburger");
+    const menuLinks = document.querySelector(".menu-links");
+
+    menuHamburger.addEventListener('click', () => {
+        menuLinks.classList.toggle('active');
+    });
+ </script>
+
+</body>
+</html>
